@@ -3,6 +3,7 @@ using PobreConsciente.Infrastructure.Configuration;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add the dependencies.
+builder.Services.AddApplicationDependency();
 builder.Services.AddInfrastructureDependency(builder.Configuration.GetConnectionString("DefaultConnection"));
 
 // Add the controllers.
