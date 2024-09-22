@@ -1,6 +1,0 @@
-@PobreConsciente_HostAddress = http://localhost:5035
-
-GET {{PobreConsciente_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
